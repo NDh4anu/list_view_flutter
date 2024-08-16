@@ -118,7 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
             onTap: () {
               var snackBar = SnackBar(
                   content: Text(
-                "Tapped on $itemTitle",
+                "Anda memilih $itemTitle.",
                 style: GoogleFonts.poppins(),
               ));
               ScaffoldMessenger.of(context).showSnackBar(snackBar);
